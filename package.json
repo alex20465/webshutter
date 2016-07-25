@@ -1,0 +1,54 @@
+{
+  "name": "webshutter",
+  "version": "0.0.1",
+  "description": "A fast http-service to processes websites using computer-cluster.",
+  "license": "MIT",
+  "repository": "",
+  "author": "Alexandros Fotiadis",
+  "keywords": [
+    "http",
+    "server",
+    "rendering",
+    "crawling",
+    "computer-cluster",
+    "process",
+    "typescript"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "argparse": "^1.0.7",
+    "async": "^2.0.0-rc.6",
+    "express": "^4.14.0",
+    "phantom": "^2.1.13",
+    "q": "^1.4.1",
+    "redis": "^2.6.2",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "del": "2.0.2",
+    "dotbin": "^1.0",
+    "dts-generator": "^1.7",
+    "gulp": "^3.9.0",
+    "gulp-help": "^1.6.0",
+    "gulp-inject": "3.0.0",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-sequence": "0.4.1",
+    "gulp-tsconfig-files": "0.0.2",
+    "gulp-tslint": "^3.1",
+    "jasmine": "^2.3.1",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine-terminal-reporter": "^1.0.2",
+    "tsd": "^0.6.5",
+    "tslint": "^3.5",
+    "typescript": "^1.8"
+  },
+  "engines": {
+    "node": ">=2.0.0"
+  },
+  "typings": "./lib/template.d.ts"
+}

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "target": "ES5",
+    "preserveConstEnums": true,
+    "removeComments": true
+  },
+  "filesGlob": [
+    "typings/*.d.ts",
+    "test/**/*.ts",
+    "src/**/*.ts"
+  ],
+  "files": [
+    "typings/tsd.d.ts",
+    "test/component_spec.ts",
+    "test/helpers.ts",
+    "test/init.ts",
+    "test/queue_spec.ts",
+    "test/server_spec.ts",
+    "test/fixtures/testcomp.ts",
+    "test/components/manager_spec.ts",
+    "test/components/webphantom_spec.ts",
+    "src/bin/main.ts",
+    "src/core/component.ts",
+    "src/core/config.ts",
+    "src/core/devices.ts",
+    "src/core/index.ts",
+    "src/core/producer.ts",
+    "src/core/queue.ts",
+    "src/core/server.ts",
+    "src/core/utils.ts",
+    "src/core/worker.ts",
+    "src/components/webphantom.ts"
+  ]
+}

@@ -1,0 +1,14 @@
+
+apps:
+  - script: dist/src/bin/main.js
+    instances: 2
+    name: http
+    max_memory_restart: 100M
+    args:
+      http
+  - script: dist/src/bin/main.js
+    instances: 10
+    max_memory_restart: 100M
+    name: worker
+    args:
+      worker
